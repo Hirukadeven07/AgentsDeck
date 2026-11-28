@@ -142,11 +142,6 @@ export function App({ data, project, bar }: { data: AgentsDeckData; project?: st
         ) : (
           <header>
             <h1>Watch your agents work the floor</h1>
-            <p className="lede">
-              A cutaway architectural model of the office, in white and grey. The roof is lifted off and rooms are divided by glass, so you can see into every station. Agents walk
-              the main corridor to whichever station their next tool call needs. Below them, a separate skills layer holds every skill in GPU racks, split into a stateless room
-              and a stateful room. Tap an agent to follow it.
-            </p>
           </header>
         )}
 
