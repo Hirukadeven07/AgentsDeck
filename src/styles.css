@@ -19,7 +19,7 @@ button { font: inherit; color: inherit; }
 button:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
 
 .wrap { max-width: 1380px; margin: 0 auto; padding-block: 28px 56px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: grid; gap: 18px; }
-header { display: grid; gap: 6px; }
+header { display: grid; gap: 6px; margin-bottom: 1em; } /* about one blank line between the heading and the toggle */
 h1 { font: 600 clamp(26px, 3.4vw, 38px)/1.1 var(--f-head); margin: 0; text-wrap: balance; }
 .lede { margin: 0; max-width: 70ch; color: var(--muted); line-height: 1.55; }
 .bar { min-width: 0; display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between; }
